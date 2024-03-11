@@ -1,0 +1,12 @@
+C:\Users\kubala.j\Desktop\Programming 1\Lang93a\Lang93a\bin\Debug\Lang93a.exe.config
+C:\Users\kubala.j\Desktop\Programming 1\Lang93a\Lang93a\bin\Debug\Lang93a.exe
+C:\Users\kubala.j\Desktop\Programming 1\Lang93a\Lang93a\bin\Debug\Lang93a.dll
+C:\Users\kubala.j\Desktop\Programming 1\Lang93a\Lang93a\bin\Debug\IronPython.dll
+C:\Users\kubala.j\Desktop\Programming 1\Lang93a\Lang93a\bin\Debug\IronPython.Modules.dll
+C:\Users\kubala.j\Desktop\Programming 1\Lang93a\Lang93a\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\kubala.j\Desktop\Programming 1\Lang93a\Lang93a\bin\Debug\Microsoft.Scripting.dll
+C:\Users\kubala.j\Desktop\Programming 1\Lang93a\Lang93a\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\kubala.j\Desktop\Programming 1\Lang93a\Lang93a\obj\Debug\Lang93a.pyprojResolveAssemblyReference.cache
+C:\Users\kubala.j\Desktop\Programming 1\Lang93a\Lang93a\obj\Debug\Lang93a.MainForm.resources
+C:\Users\kubala.j\Desktop\Programming 1\Lang93a\Lang93a\obj\Debug\Lang93a.pyproj.GenerateResource.Cache
+C:\Users\kubala.j\Desktop\Programming 1\Lang93a\Lang93a\obj\Debug\Lang93a.exe
