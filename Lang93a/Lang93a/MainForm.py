@@ -21,6 +21,8 @@ class MainForm(Form):
 		self._button2 = System.Windows.Forms.Button()
 		self._label8 = System.Windows.Forms.Label()
 		self._label9 = System.Windows.Forms.Label()
+		self._label10 = System.Windows.Forms.Label()
+		self._label11 = System.Windows.Forms.Label()
 		self.SuspendLayout()
 		# 
 		# label1
@@ -33,31 +35,28 @@ class MainForm(Form):
 		self._label1.Size = System.Drawing.Size(55, 23)
 		self._label1.TabIndex = 0
 		self._label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-		self._label1.Click += self.Label1Click
 		# 
 		# label2
 		# 
 		self._label2.BackColor = System.Drawing.Color.IndianRed
 		self._label2.Font = System.Drawing.Font("Microsoft YaHei", 11.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
 		self._label2.ForeColor = System.Drawing.Color.White
-		self._label2.Location = System.Drawing.Point(149, 117)
+		self._label2.Location = System.Drawing.Point(149, 118)
 		self._label2.Name = "label2"
 		self._label2.Size = System.Drawing.Size(55, 23)
 		self._label2.TabIndex = 1
 		self._label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-		self._label2.Click += self.Label2Click
 		# 
 		# label3
 		# 
 		self._label3.BackColor = System.Drawing.Color.IndianRed
 		self._label3.Font = System.Drawing.Font("Microsoft YaHei", 11.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
 		self._label3.ForeColor = System.Drawing.Color.White
-		self._label3.Location = System.Drawing.Point(149, 140)
+		self._label3.Location = System.Drawing.Point(149, 142)
 		self._label3.Name = "label3"
 		self._label3.Size = System.Drawing.Size(55, 23)
 		self._label3.TabIndex = 2
 		self._label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-		self._label3.Click += self.Label3Click
 		# 
 		# label4
 		# 
@@ -70,33 +69,30 @@ class MainForm(Form):
 		self._label4.TabIndex = 3
 		self._label4.Text = "Base rate:"
 		self._label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-		self._label4.Click += self.Label4Click
 		# 
 		# label5
 		# 
 		self._label5.BackColor = System.Drawing.Color.IndianRed
 		self._label5.Font = System.Drawing.Font("Microsoft YaHei", 11.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
 		self._label5.ForeColor = System.Drawing.Color.White
-		self._label5.Location = System.Drawing.Point(21, 117)
+		self._label5.Location = System.Drawing.Point(21, 118)
 		self._label5.Name = "label5"
 		self._label5.Size = System.Drawing.Size(100, 23)
 		self._label5.TabIndex = 4
 		self._label5.Text = "Surcharge:"
 		self._label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-		self._label5.Click += self.Label5Click
 		# 
 		# label6
 		# 
 		self._label6.BackColor = System.Drawing.Color.IndianRed
 		self._label6.Font = System.Drawing.Font("Microsoft YaHei", 11.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
 		self._label6.ForeColor = System.Drawing.Color.White
-		self._label6.Location = System.Drawing.Point(21, 140)
+		self._label6.Location = System.Drawing.Point(21, 142)
 		self._label6.Name = "label6"
 		self._label6.Size = System.Drawing.Size(100, 23)
 		self._label6.TabIndex = 5
 		self._label6.Text = "City Tax:"
 		self._label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-		self._label6.Click += self.Label6Click
 		# 
 		# label7
 		# 
@@ -109,7 +105,6 @@ class MainForm(Form):
 		self._label7.TabIndex = 6
 		self._label7.Text = "Kilowatts Used:"
 		self._label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-		self._label7.Click += self.Label7Click
 		# 
 		# textBox1
 		# 
@@ -143,13 +138,14 @@ class MainForm(Form):
 		self._button2.TabIndex = 9
 		self._button2.Text = "Clear"
 		self._button2.UseVisualStyleBackColor = False
+		self._button2.Click += self.Button2Click
 		# 
 		# label8
 		# 
 		self._label8.BackColor = System.Drawing.Color.IndianRed
 		self._label8.Font = System.Drawing.Font("Microsoft YaHei", 11.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
 		self._label8.ForeColor = System.Drawing.Color.White
-		self._label8.Location = System.Drawing.Point(21, 162)
+		self._label8.Location = System.Drawing.Point(21, 166)
 		self._label8.Name = "label8"
 		self._label8.Size = System.Drawing.Size(100, 23)
 		self._label8.TabIndex = 11
@@ -161,16 +157,41 @@ class MainForm(Form):
 		self._label9.BackColor = System.Drawing.Color.IndianRed
 		self._label9.Font = System.Drawing.Font("Microsoft YaHei", 11.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
 		self._label9.ForeColor = System.Drawing.Color.White
-		self._label9.Location = System.Drawing.Point(149, 162)
+		self._label9.Location = System.Drawing.Point(149, 166)
 		self._label9.Name = "label9"
 		self._label9.Size = System.Drawing.Size(55, 23)
 		self._label9.TabIndex = 10
 		self._label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
 		# 
+		# label10
+		# 
+		self._label10.BackColor = System.Drawing.Color.IndianRed
+		self._label10.Font = System.Drawing.Font("Microsoft YaHei", 11.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+		self._label10.ForeColor = System.Drawing.Color.White
+		self._label10.Location = System.Drawing.Point(21, 190)
+		self._label10.Name = "label10"
+		self._label10.Size = System.Drawing.Size(100, 23)
+		self._label10.TabIndex = 13
+		self._label10.Text = "Late Cost:"
+		self._label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+		# 
+		# label11
+		# 
+		self._label11.BackColor = System.Drawing.Color.IndianRed
+		self._label11.Font = System.Drawing.Font("Microsoft YaHei", 11.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+		self._label11.ForeColor = System.Drawing.Color.White
+		self._label11.Location = System.Drawing.Point(149, 190)
+		self._label11.Name = "label11"
+		self._label11.Size = System.Drawing.Size(55, 23)
+		self._label11.TabIndex = 12
+		self._label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+		# 
 		# MainForm
 		# 
 		self.BackColor = System.Drawing.Color.LightCoral
-		self.ClientSize = System.Drawing.Size(222, 194)
+		self.ClientSize = System.Drawing.Size(222, 227)
+		self.Controls.Add(self._label10)
+		self.Controls.Add(self._label11)
 		self.Controls.Add(self._label8)
 		self.Controls.Add(self._label9)
 		self.Controls.Add(self._button2)
@@ -193,12 +214,22 @@ class MainForm(Form):
 
 	def Button1Click(self, sender, e):
 		KWused = float(self._textBox1.Text)
-		Baserate = KWused * 0.0475
-		Surcharge = Baserate * 0.1
-		Citytax = Baserate * 0.03
-		Total = Baserate + Surcharge + Citytax
-		self._label.Text = str(Baserate)
-		self._labe2.Text = str(Surcharge)
-		self._labe3.Text = str(Citytax)
-		self._labe9.Text = str(Total)
+		Baserate = round(KWused * 0.0475, 2)
+		Surcharge = round(Baserate * 0.1, 2)
+		Citytax = round(Baserate * 0.03, 2)
+		Total = round(Baserate + Surcharge + Citytax, 2)
+		Late = round(Total * 1.04, 2)
+		self._label1.Text = str(Baserate)
+		self._label2.Text = str(Surcharge)
+		self._label3.Text = str(Citytax)
+		self._label9.Text = str(Total)
+		self._label11.Text = str(Late)
 		
+
+	def Button2Click(self, sender, e):
+		self._label1.Text = ""
+		self._label2.Text = ""
+		self._label3.Text = ""
+		self._label9.Text = ""
+		self._label11.Text = ""
+		self._textBox1.Text = ""

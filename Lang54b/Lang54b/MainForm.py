@@ -30,7 +30,6 @@ class MainForm(Form):
 		self._textBox1.Name = "textBox1"
 		self._textBox1.Size = System.Drawing.Size(100, 20)
 		self._textBox1.TabIndex = 0
-		self._textBox1.TextChanged += self.TextBox1TextChanged
 		# 
 		# textBox2
 		# 
@@ -40,7 +39,6 @@ class MainForm(Form):
 		self._textBox2.Name = "textBox2"
 		self._textBox2.Size = System.Drawing.Size(100, 20)
 		self._textBox2.TabIndex = 1
-		self._textBox2.TextChanged += self.TextBox2TextChanged
 		# 
 		# textBox3
 		# 
@@ -50,7 +48,6 @@ class MainForm(Form):
 		self._textBox3.Name = "textBox3"
 		self._textBox3.Size = System.Drawing.Size(100, 20)
 		self._textBox3.TabIndex = 2
-		self._textBox3.TextChanged += self.TextBox3TextChanged
 		# 
 		# textBox4
 		# 
@@ -60,26 +57,24 @@ class MainForm(Form):
 		self._textBox4.Name = "textBox4"
 		self._textBox4.Size = System.Drawing.Size(100, 20)
 		self._textBox4.TabIndex = 3
-		self._textBox4.TextChanged += self.TextBox4TextChanged
 		# 
 		# label2
 		# 
 		self._label2.Font = System.Drawing.Font("Microsoft YaHei", 12, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
 		self._label2.ForeColor = System.Drawing.Color.White
-		self._label2.Location = System.Drawing.Point(28, 84)
+		self._label2.Location = System.Drawing.Point(18, 103)
 		self._label2.Name = "label2"
-		self._label2.Size = System.Drawing.Size(123, 47)
+		self._label2.Size = System.Drawing.Size(81, 26)
 		self._label2.TabIndex = 5
 		self._label2.Text = "Average:"
-		self._label2.Click += self.Label2Click
 		# 
 		# label1
 		# 
 		self._label1.Font = System.Drawing.Font("Microsoft YaHei", 12, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
 		self._label1.ForeColor = System.Drawing.Color.White
-		self._label1.Location = System.Drawing.Point(28, 150)
+		self._label1.Location = System.Drawing.Point(42, 150)
 		self._label1.Name = "label1"
-		self._label1.Size = System.Drawing.Size(123, 47)
+		self._label1.Size = System.Drawing.Size(57, 23)
 		self._label1.TabIndex = 6
 		self._label1.Text = "Total:"
 		# 
@@ -87,20 +82,19 @@ class MainForm(Form):
 		# 
 		self._label3.Font = System.Drawing.Font("Microsoft YaHei", 12, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
 		self._label3.ForeColor = System.Drawing.Color.White
-		self._label3.Location = System.Drawing.Point(157, 84)
+		self._label3.Location = System.Drawing.Point(105, 150)
 		self._label3.Name = "label3"
-		self._label3.Size = System.Drawing.Size(100, 23)
+		self._label3.Size = System.Drawing.Size(82, 23)
 		self._label3.TabIndex = 7
 		# 
 		# label4
 		# 
 		self._label4.Font = System.Drawing.Font("Microsoft YaHei", 12, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
 		self._label4.ForeColor = System.Drawing.Color.White
-		self._label4.Location = System.Drawing.Point(157, 150)
+		self._label4.Location = System.Drawing.Point(105, 103)
 		self._label4.Name = "label4"
-		self._label4.Size = System.Drawing.Size(100, 23)
+		self._label4.Size = System.Drawing.Size(82, 23)
 		self._label4.TabIndex = 8
-		self._label4.Click += self.Label4Click
 		# 
 		# button1
 		# 
@@ -161,13 +155,6 @@ class MainForm(Form):
 		self.ResumeLayout(False)
 		self.PerformLayout()
 
-
-	def TextBox4TextChanged(self, sender, e):
-		pass
-
-	def TextBox2TextChanged(self, sender, e):
-		pass
-
 	def Button1Click(self, sender, e):
 		one = int(self._textBox1.Text)
 		two = int(self._textBox2.Text)
@@ -189,14 +176,3 @@ class MainForm(Form):
 	def Button3Click(self, sender, e):
 		Application.Exit()
 
-	def TextBox1TextChanged(self, sender, e):
-		pass
-
-	def TextBox3TextChanged(self, sender, e):
-		pass
-
-	def Label2Click(self, sender, e):
-		pass
-
-	def Label4Click(self, sender, e):
-		pass

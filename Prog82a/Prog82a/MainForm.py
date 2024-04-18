@@ -22,9 +22,10 @@ class MainForm(Form):
 		# textBox1
 		# 
 		self._textBox1.BackColor = System.Drawing.SystemColors.MenuHighlight
+		self._textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
 		self._textBox1.Font = System.Drawing.Font("Microsoft Sans Serif", 11.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
 		self._textBox1.ForeColor = System.Drawing.Color.White
-		self._textBox1.Location = System.Drawing.Point(137, 60)
+		self._textBox1.Location = System.Drawing.Point(136, 39)
 		self._textBox1.Name = "textBox1"
 		self._textBox1.Size = System.Drawing.Size(51, 24)
 		self._textBox1.TabIndex = 0
@@ -33,9 +34,10 @@ class MainForm(Form):
 		# textBox2
 		# 
 		self._textBox2.BackColor = System.Drawing.SystemColors.MenuHighlight
+		self._textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
 		self._textBox2.Font = System.Drawing.Font("Microsoft Sans Serif", 11.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
 		self._textBox2.ForeColor = System.Drawing.Color.White
-		self._textBox2.Location = System.Drawing.Point(137, 14)
+		self._textBox2.Location = System.Drawing.Point(137, 12)
 		self._textBox2.Name = "textBox2"
 		self._textBox2.Size = System.Drawing.Size(51, 24)
 		self._textBox2.TabIndex = 1
@@ -44,12 +46,12 @@ class MainForm(Form):
 		# label1
 		# 
 		self._label1.BackColor = System.Drawing.SystemColors.MenuHighlight
-		self._label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+		self._label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
 		self._label1.Font = System.Drawing.Font("Microsoft YaHei", 12, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
 		self._label1.ForeColor = System.Drawing.Color.White
-		self._label1.Location = System.Drawing.Point(5, 114)
+		self._label1.Location = System.Drawing.Point(23, 66)
 		self._label1.Name = "label1"
-		self._label1.Size = System.Drawing.Size(109, 20)
+		self._label1.Size = System.Drawing.Size(109, 24)
 		self._label1.TabIndex = 2
 		self._label1.Text = "Ticket Cost:"
 		self._label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -59,7 +61,7 @@ class MainForm(Form):
 		self._button1.BackColor = System.Drawing.SystemColors.MenuHighlight
 		self._button1.Font = System.Drawing.Font("Microsoft YaHei", 11.25, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
 		self._button1.ForeColor = System.Drawing.Color.White
-		self._button1.Location = System.Drawing.Point(12, 156)
+		self._button1.Location = System.Drawing.Point(9, 110)
 		self._button1.Name = "button1"
 		self._button1.Size = System.Drawing.Size(87, 56)
 		self._button1.TabIndex = 3
@@ -70,12 +72,12 @@ class MainForm(Form):
 		# label2
 		# 
 		self._label2.BackColor = System.Drawing.SystemColors.MenuHighlight
-		self._label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+		self._label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
 		self._label2.Font = System.Drawing.Font("Microsoft YaHei", 12, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
 		self._label2.ForeColor = System.Drawing.Color.White
-		self._label2.Location = System.Drawing.Point(5, 62)
+		self._label2.Location = System.Drawing.Point(1, 39)
 		self._label2.Name = "label2"
-		self._label2.Size = System.Drawing.Size(128, 20)
+		self._label2.Size = System.Drawing.Size(131, 24)
 		self._label2.TabIndex = 4
 		self._label2.Text = "Vehicle Speed:"
 		self._label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -85,7 +87,7 @@ class MainForm(Form):
 		self._button2.BackColor = System.Drawing.SystemColors.MenuHighlight
 		self._button2.Font = System.Drawing.Font("Microsoft YaHei", 11.25, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
 		self._button2.ForeColor = System.Drawing.Color.White
-		self._button2.Location = System.Drawing.Point(101, 156)
+		self._button2.Location = System.Drawing.Point(102, 110)
 		self._button2.Name = "button2"
 		self._button2.Size = System.Drawing.Size(87, 56)
 		self._button2.TabIndex = 5
@@ -96,12 +98,12 @@ class MainForm(Form):
 		# label3
 		# 
 		self._label3.BackColor = System.Drawing.SystemColors.MenuHighlight
-		self._label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+		self._label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
 		self._label3.Font = System.Drawing.Font("Microsoft YaHei", 12, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
 		self._label3.ForeColor = System.Drawing.Color.White
-		self._label3.Location = System.Drawing.Point(5, 16)
+		self._label3.Location = System.Drawing.Point(12, 12)
 		self._label3.Name = "label3"
-		self._label3.Size = System.Drawing.Size(128, 20)
+		self._label3.Size = System.Drawing.Size(121, 24)
 		self._label3.TabIndex = 6
 		self._label3.Text = "Speed Limit:"
 		self._label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -109,19 +111,19 @@ class MainForm(Form):
 		# label4
 		# 
 		self._label4.BackColor = System.Drawing.SystemColors.MenuHighlight
-		self._label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+		self._label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
 		self._label4.Font = System.Drawing.Font("Microsoft YaHei", 12, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
 		self._label4.ForeColor = System.Drawing.Color.White
-		self._label4.Location = System.Drawing.Point(111, 114)
+		self._label4.Location = System.Drawing.Point(135, 66)
 		self._label4.Name = "label4"
-		self._label4.Size = System.Drawing.Size(77, 20)
+		self._label4.Size = System.Drawing.Size(52, 24)
 		self._label4.TabIndex = 7
 		self._label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
 		# 
 		# MainForm
 		# 
 		self.BackColor = System.Drawing.Color.CornflowerBlue
-		self.ClientSize = System.Drawing.Size(201, 224)
+		self.ClientSize = System.Drawing.Size(201, 179)
 		self.Controls.Add(self._label4)
 		self.Controls.Add(self._label3)
 		self.Controls.Add(self._button2)
